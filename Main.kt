@@ -1,3 +1,4 @@
+Crash my main
 fun main(){
     /*
       all the class is initiated and there print functions are here
