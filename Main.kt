@@ -1,3 +1,4 @@
+git crash
 fun main(){
     /*
       all the class is initiated and there print functions are here
@@ -11,6 +12,15 @@ fun main(){
         println("Resident of ${getCountry()}")
         println("Bus fare: ${busFare()}")
 
+    }
+    val emloyee = Emloyee("Bangladesh")
+    with(emloyee){
+        println("\nEmployee Info provided bellow\n_________________________")
+        println("Name: $name")
+        println("Company: $company")
+        println("$age years old")
+        println("Resident of ${getCountry()}")
+        println("Bus fare: ${busFare()}")
     }
 
     val bjitTrainee = BjitTrainee("Bangladesh")
